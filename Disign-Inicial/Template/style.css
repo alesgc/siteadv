@@ -15,19 +15,21 @@
 }
 
 #Logo{
-   margin-inline-start: 120px;
+   margin-inline-start: 12%;
    height: 128px;
 }
 
 #Menu{
    display: flex;
    justify-content: flex-end;
+   margin-inline-end: 22%;
 }
 
 #Menu a {
    margin-left: 15px; /* Ajuste conforme necessário */
    text-decoration: none;
    color: #000; /* Cor do texto do link, ajuste conforme necessário */
+   font-size: 1.8em;
 }
 
 #conteudo{
@@ -35,9 +37,41 @@
    width: 70%;
 }
 
-footer{
+.section-conteudo{
    display: flex;
-   align-items: center;
-   margin: auto;
+   justify-content: space-evenly;
+   position: relative;
+   margin: 3rem;
 }
 
+.section-conteudo p {
+   margin-left: 2%;
+}
+
+footer{
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+}
+
+#footer-content{
+   display: flex;
+   height: auto;
+   justify-content: space-evenly;
+   margin-top: 1.2rem;
+   padding-bottom: 1.2rem;
+}
+
+#footer-menu{
+   display: grid;
+}
+
+#footer-menu a{
+   padding-top: 0.4rem;
+   padding-bottom: 0.4rem;
+}
+
+#social_midia{
+   display: flex;
+   margin-inline-end: 12%;
+}

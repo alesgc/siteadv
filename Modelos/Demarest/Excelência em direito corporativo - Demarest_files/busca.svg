@@ -1,0 +1,10 @@
+<svg id="Lupa_principal" data-name="Lupa principal" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_277" data-name="Retângulo 277" width="20" height="20" fill="#cd8c5e"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_537" data-name="Grupo 537" clip-path="url(#clip-path)">
+    <path id="Caminho_65" data-name="Caminho 65" d="M7.857,0a7.857,7.857,0,1,0,5.028,13.894l5.9,5.9a.714.714,0,0,0,1.01-1.01l-5.9-5.9A7.857,7.857,0,0,0,7.857,0Zm0,1.428A6.428,6.428,0,1,1,1.428,7.857,6.417,6.417,0,0,1,7.857,1.428Z" transform="translate(0 0)" fill="#cd8c5e"/>
+  </g>
+</svg>

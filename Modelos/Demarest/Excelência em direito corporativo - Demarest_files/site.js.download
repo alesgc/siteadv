@@ -1,0 +1,84 @@
+function abrirMenu(){
+    document.getElementById("menu").classList.add("showMenu");
+    document.body.classList.add("stop-rolagem");
+    document.getElementById("menu").style.height = "100vh";
+    document.getElementById("fechar").classList.remove("esconderfechar");
+}
+function fecharMenu(){
+    document.getElementById("menu").classList.remove("showMenu");
+    document.body.classList.remove("stop-rolagem");
+    document.getElementById("menu").style.height = "0";
+    // document.getElementById("fechar").classList.add("esconderfechar");
+}
+function abrirBusca(){
+    document.getElementById("buscamenu").classList.add("showbusca");
+
+}
+
+$(function () {
+  if ($('.form-submit.custom input[type="submit"]')) {
+    $('.form-submit.custom input[type="submit"]').wrap(
+      '<div class="submit-box"></div>'
+    );
+    $(".submit-box").append('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg>');
+  }
+});
+
+function abrirpop(abrirpop, aparecericone, fecharicone){
+
+    $(`.${abrirpop}`).fadeIn();
+    $(`.${abrirpop}`).fadeIn("slow");
+    $(`.${abrirpop}`).fadeIn(3000);
+
+    document.getElementById(`${aparecericone}`).style.display = "block";
+    document.getElementById(`${fecharicone}`).style.display = "none";
+
+}
+
+function fecharpop(fecharpop, aparecericone, fecharicone){
+    document.querySelector(`.${fecharpop}`).style.display = "none";
+
+    document.getElementById(`${aparecericone}`).style.display = "none";
+    document.getElementById(`${fecharicone}`).style.display = "block";
+
+
+}
+
+function setActive() {
+  aObj = document.getElementById('menudesk').getElementsByTagName('a');
+      for(i=0;i<aObj.length;i++) { 
+          if(document.location.href.indexOf(aObj[i].href)>=0) {
+          aObj[i].className='pagina-ativa';
+          }
+      }
+}
+
+window.onload = setActive;
+
+
+
+function abrirPopProfissional(nome){
+  var PopProfissional = document.getElementById(nome);
+  PopProfissional.style.display = "flex";
+}
+function fecharpopProfissionais() {
+  var PopProfissionalfechar = document.querySelectorAll('.popProfissionais');
+  
+  PopProfissionalfechar.forEach(function(element) {
+    element.style.display = "none";
+  });
+}
+
+// Adiciona um ouvinte de eventos para o evento de pressionar a tecla "Esc"
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      // Chama a função fecharpopProfissionais quando a tecla "Esc" é pressionada
+      fecharpopProfissionais();
+    }
+});
+
+
+function abrirPopOutros(nome){
+  var PopOutros = document.getElementById(nome);
+  PopOutros.style.display = "flex";
+}

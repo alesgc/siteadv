@@ -1,0 +1,43 @@
+*{
+   border: 0px;
+   padding: 0px;
+   margin: 0px;
+   color: blueviolet;
+   align-items: center;
+
+}
+
+#Cabecalio{
+   display: flex;
+   justify-content: space-between;
+
+   
+}
+
+#Logo{
+   margin-inline-start: 120px;
+   height: 128px;
+}
+
+#Menu{
+   display: flex;
+   justify-content: flex-end;
+}
+
+#Menu a {
+   margin-left: 15px; /* Ajuste conforme necessário */
+   text-decoration: none;
+   color: #000; /* Cor do texto do link, ajuste conforme necessário */
+}
+
+#conteudo{
+   margin: auto;
+   width: 70%;
+}
+
+footer{
+   display: flex;
+   align-items: center;
+   margin: auto;
+}
+

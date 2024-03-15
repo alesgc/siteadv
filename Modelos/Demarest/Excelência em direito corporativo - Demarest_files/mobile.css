@@ -1,0 +1,801 @@
+@media screen and (max-width:900px) {
+
+    .menor-profissionais .vcard img {
+        display: none;
+    }
+    
+    .busca-section {
+        background-color: var(--cinza);
+        padding: 60px 0 0;
+        margin-bottom: 0px!important;
+        margin-top: 0px!important;
+    }
+    /* Header */
+
+    .popanos{
+        display: none;
+    }
+    .slides-premios .dentro-slide{
+        width: 98%!important;
+    }
+    .menu-desktop,
+    .idiomas,
+    .telefone {
+        display: none !important;
+    }
+
+    .insights-sigle h1 {
+        font-size: 28px;
+    }
+    #buscamenu{
+        width: 100%!important;
+        left: 0;
+    }
+    #menu .container{
+        grid-template-columns: auto 2fr;
+        position: relative;
+        width: 100%!important;
+        left: 0;
+        align-content: baseline;
+        padding: 100px 30px;
+        gap: 40px;
+    }
+    .form-busca{
+        grid-template-columns: 1fr;
+    }
+    #menu #fechar{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .insights-sigle .data {
+        font-size: 16px;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner {
+        height: 50vh;
+    }
+
+    .banner-bloco {
+        padding: 0 40px;
+        height: auto;
+    }
+
+    .banner-bloco img{
+        width: 65%;
+    }
+
+    /* Footer */
+
+    .rodape {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        font-size: 11px;
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .alem-en .container h2{
+        font-size: 57px!important;
+    }
+
+    .termo-mobile {
+        text-align: left;
+    }
+
+    .termo-fale {
+        text-align: right;
+    }
+
+    .icones-rodape {
+        margin: 12px 0px;
+        width: 110px;
+    }
+
+    .coluna-footer {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    footer h2 {
+        font-family: HelveticaNeueLight;
+        font-size: 38px;
+        text-align: left;
+        color: var(--azul);
+    }
+
+    footer .coluna-locais-footer {
+        display: flex;
+        margin-top: 40px;
+        justify-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    footer .primeira-aba {
+        padding: 80px 10px;
+    }
+
+    .local-card h3 {
+        font-family: HelveticaNeueBold;
+        font-size: 18px;
+        color: var(--azul);
+        font-weight: 600;
+    }
+
+    footer .coluna-locais-footer {
+        display: flex;
+        margin-top: 40px;
+        justify-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .local-card p {
+        font-size: 16px;
+        color: var(--azul);
+        font-family: HelveticaNeueLight;
+        max-width: 188px;
+    }
+
+    /* MENU */
+
+    .menu-menor {
+        padding: 15px 0;
+    }
+
+    .menu-maior a {
+        font-family: HelveticaNeueLight;
+        color: white;
+        display: block;
+        font-size: 25px;
+    }
+
+    .menu-grid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .remover-mobile {
+        display: none;
+    }
+
+    .menu-aparecer {
+        position: relative;
+        z-index: 99999999;
+    }
+
+    #mobilefechar {
+        display: none;
+        font-size: 28px;
+    }
+
+    .abrirEsconder {
+        display: none;
+    }
+
+    /* SOBRE NÓS */
+
+    .ajuste-profissionais-banner{
+        background-position-x: 48%!important;
+    }
+
+    .bruno-aurelio,
+    .edimara-iansen-wieczorek,
+    .eduardo-alcantara,
+    .fernanda-stefanelo,
+    .leticia-galdino-wanderley {
+        background-position-x: 45%!important;
+    }
+
+    .camila-affonso-prado,
+    .carlo-de-lima-verona,
+    .cassia-fernanda-pizzotti,
+    .carlos-eduardo-marino-orsolon,
+    .claudio-de-oliveira-mattos,
+    .christiano-chagas-monteiro-de-melo,
+    .douglas-mota,
+    .david-meiler,
+    .fabio-de-almeida-braga,
+    .fabyola-en-rodrigues,
+    .fernanda-de-gouvea-leao,
+    .fernando-benjamin-bueno,
+    .gabriel-ricardo-kuznietz,
+    .gisele-barra-bossa,
+    .katia-zambrano-mazloum,
+    .luciana-cossermelli-tornovsky,
+    .marcelo-salles-annunziata,
+    .maria-helena-ortiz-bragaglia-marques,
+    .mauricio-barros,
+    .priscila-faricelli-de-mendonca,
+    .silvio-de-salvo-venosa,
+    .thereza-maria-sarfert-franco-montoro,
+    .thiago-lopes-amaral,
+    .thiago-rodrigues-maia{
+        background-position-x: 53%!important;
+    }
+
+    .banner-padrao {
+        background-size: cover!important;
+        height: 45vh;
+        width: 100%;
+        background-position-x: 34%;
+    }
+
+    .sobre-nos-page h3 {
+        font-size: 14px;
+        color: var(--cinzaEscuro);
+        text-transform: uppercase;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .banner-sobre-nos {
+        position: relative;
+        height: 60vh;
+        overflow: hidden;
+    }
+    
+
+    .colunas-sobre {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .sobre-nos-page {
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .card-grid-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .cards-lex {
+        background-color: var(--cinza);
+        padding: 10px;
+    }
+
+    .anos {
+        padding: 25px 0;
+    }
+
+    .img-75anos {
+        width: 40%;
+    }
+
+    .alem h2 {
+        font-size: 70px;
+    }
+
+    .alem-center {
+        width: 100%;
+        display: block;
+        text-align: justify;
+        margin: 20px auto;
+    }
+
+    .alem {
+        padding: 40px 0;
+    }
+
+    .separacao {
+        margin: 20px 0px;
+    }
+    .areas-pagina{
+        grid-template-columns: 1fr;
+    }
+    .desktop-hidden {
+        display: none;
+    }
+
+    .imagem-slide-mobile {
+        margin: 0 auto;
+    }
+
+    .slick-slide img {
+        padding: 65px;
+    }
+    .filtro-area{
+        overflow-x: scroll;
+    }
+    .recentes {
+        /* width: 300px !important; */
+        /* margin: 20px; */
+    }
+    .menu-scroll-mobile{
+        height: 550px;
+        overflow-y:scroll;
+    }
+    .colunas-saiba-mais {
+        grid-template-columns: 1fr !important;
+    }
+
+    .titulo-azul-saiba {
+        color: #000D32 !important;
+        margin: 0px;
+        font-size: 24px !important;
+    }
+
+    .mobile-hidden {
+        display: block !important;
+    }
+
+    /* HOME */
+
+    #videohome{
+        height: 40vh;
+    }
+
+    .juntos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-quatro{
+        display: grid;
+        grid-template-columns: 1fr!important;
+    }
+    
+    .areas-page .slz-list-block,
+    .posts-busca  {
+        grid-template-columns: 1fr!important;
+        gap: 30px;
+    }
+
+    .ver-todos {
+        text-align: left;
+    }
+
+    .titulo-light {
+        padding: 0px 0px 10px;
+    }
+
+    .nos-home {
+        grid-template-columns: 1fr;
+    }
+
+    .texto-sobreposto {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .padrao-espacamento {
+        padding: 40px 0;
+    }
+    .posts-advocasteventos{
+        grid-template-columns: 1fr 2fr;
+    }
+    .inscreva-se .wpcf7 form.wpcf7-form{
+        margin: 0;
+    }
+    .banner-padrao-video h1,
+    .slide-principal h1{
+        font-size: 32px;
+    }
+    /* SINGLE */
+
+    .grid-insights-sigle {
+        display: grid;
+        grid-template-columns: 3fr;
+    }
+
+    .social-compartilhar {
+        width: 60%;
+    }
+
+    .slick-slide img {
+        padding: 0 !important;
+    }
+
+    /* NOSSA HISTORIA */
+
+    h2 {
+        font-size: 28px !important;
+        padding: 0px 0px 20px;
+    }
+
+    .ordem-zero {
+        order: 0;
+    }
+
+    .ordem-um {
+        order: 1;
+        width: 92%;
+        margin: -43px 15px 0px;
+    }
+
+    .ordem-dois {
+        order: 2;
+    }
+
+    .ordem-tres {
+        order: 3;
+        width: 92%;
+        margin: -43px 15px 0px;
+    }
+
+    .timeline-demarest h2 {
+        font-size: 32px;
+        padding: 20px 0;
+    }
+
+    .timeline-grid h2 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    .grid-dois-por-dois {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-dois-por-um {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-um-por-dois {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-dois-para-tres {
+        grid-template-columns: 1fr !important;
+    }
+
+    .timeline-card {
+        background-color: #F7F7F7;
+        color: #000D32;
+        padding: 40px;
+    }
+
+    .espacamento-decada {
+        padding: 80px 30px 50px !important;
+    }
+
+    .banner-timeline {
+        /* background-color: #CD8C5E; */
+        color: #ffffff;
+        padding: 0px 15px;
+    }
+
+        
+    #videocinquenta,
+    #videosessenta,
+    #videooitenta,
+    #videonoventa,
+    #videodoismil,
+    #videosete, 
+    #videoonze,
+    #videoquarenta {
+        width: 100%;
+        left: 0px;
+    }
+    
+
+    
+
+    .timeline-card {
+        background-color: #F7F7F7;
+        color: #000D32;
+        position: initial;
+        top: 0px;
+        padding: 40px;
+        left: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .espacamento-nossa-historia {
+        padding: 70px 15px !important;
+    }
+
+    .timeline-figuras {
+        padding: 0px 15px !important;
+    }
+
+    .sem-padding-lateral {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .popup {
+        display: none;
+        position: absolute;
+        width: 93.1%;
+        height: auto;
+        padding: 40px;
+        background-color: var(--cinza);
+    }
+
+    .espacamento-decada-meio {
+        padding: 40px 30px 0px !important;
+    }
+
+    .timeline img {
+        width: 100%;
+    }
+
+    .ajuste-texto-primeira {
+        padding: 40px !important;
+    }
+
+    .timeline-primeira h2 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    .timeline-balao {
+        text-align: -webkit-center;
+        padding: 40px 0px 20px;
+    }
+
+    .ajuste-altura-pop {
+        height: 475px;
+        width: 92%;
+    }
+
+    .timeline-figuras p {
+        font-size: 20px;
+    }
+
+    .timeline-primeira {
+        background-color: #F7F7F7;
+        padding: 30px;
+    }
+
+    .timeline-brasil {
+        height: auto;
+    }
+
+    .timeline-dhl h2 {
+        font-size: 32px;
+        padding: 40px 40px 20px !important;
+    }
+
+    .timeline-demarest {
+        height: auto !important;
+    }
+
+    .timeline-consolidacao {
+        padding: 40px !important;
+    }
+
+    .timeline-brasil {
+        height: auto !important;
+    }
+
+    .popup {
+        display: none;
+        position: relative;
+        height: auto;
+        padding: 40px;
+        background-color: var(--cinza);
+    }
+
+    .ajuste-altura-pop {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-altura-pop-um {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-altura-pop-dois {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-altura-pop-tres {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-altura-pop-quatro {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-altura-pop-cinco {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-altura-pop-seis {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-altura-pop-sete {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-altura-pop-oito {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-altura-pop-nove {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ajuste-img-card {
+        height: 300px!important;
+    }
+    .advocast-eventos .posts-relacionados,
+    .grid-single-profissionais, .grid-ajuste, .grid-ajust-en, .grid-dois-por-dois-semgap{
+        grid-template-columns: 1fr;
+    }
+
+    /* ÁREA DE ATUAÇÃO */
+
+    .banner-areas-de-atuacao{
+        padding: 20px 0;
+        height: 50vh;
+    }
+    .single-areas h1{
+        font-size: 32px;
+    }
+    .maior-profissionais h5 span strong{
+        font-size: 26px;
+    }
+
+    /* AJUSTES */
+    .areas-page .item {
+        padding: 20px;
+    }
+
+    .alem .container h2{
+        font-size: 68px !important;
+    }
+    
+    .titulo-banner-fale, .titulo-banner-cultura, .titulo-banner-carreiras, .titulo-banner-alumni, .banner-cultura{
+        grid-template-columns: 1fr!important;
+        gap: 0!important;
+        padding: 80px 0!important;
+
+    }
+
+    .banner-profissionais h1{
+        font-size: 32px!important;
+        padding: 0px 52px;
+    }
+
+    .banner-cultura h1{
+        font-size: 32px!important;
+        padding: 0px 52px;
+    }
+
+    .profissionais-page .slz-list-block{
+        grid-template-columns: 1fr 1fr!important;
+    }
+
+    /* .banner-areas-de-atuacao h1{
+        font-size: 32px!important;
+        padding: 0px 52px;
+    } */
+
+    .banner-padrao-video h1{
+        font-size: 32px!important;
+        padding: 0px 52px;
+    }
+
+
+    .titulo-banner-cultura h1 {
+        font-size: 32px!important;
+        padding: 0px 52px;
+    }
+
+    .titulo-banner-carreiras h1{
+        font-size: 32px!important;
+        padding: 0px 52px;
+    }
+
+    .titulo-banner-fale h1{
+        font-size: 32px!important;
+        padding: 0px 52px;
+    }
+
+    .titulo-banner-alumni h1{
+        font-size: 32px!important;
+        padding: 0px 52px;
+    }
+    .banner-profissionais{
+        padding: 0!important;
+    }
+
+    .banner-carreiras,  .banner-fale, .banner-cultura, .banner-alumni, .banner-areas-de-atuacao, .banner-cultura, .banner-profissionais, .banner-padrao-video, .banner-video{
+        height: 60vh!important;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .slides-insights .dentro-slide{
+        padding: 0px 15% 0 15%!important;
+    }
+
+    .testimonial-img img {
+        top: -50px!important;
+        margin-bottom: -26px!important;
+    }
+
+    .titulo-mobile-cultura{
+        font-size: 25px!important;
+        text-align: center;
+    }
+
+    .culture-card .grid .card {
+        width: 85%!important;
+    }
+
+    .culture-card .grid .card {
+        width: 85%!important;
+    }
+
+    .texto-slide h2{
+        font-size: 22px !important;
+    }
+
+    .slides-insights .dentro-slide {
+        height: 60vh!important;
+    }  
+
+    .grid-navegacao{
+        gap: 10px;
+    }
+
+    .ajuste-margem{
+        margin: 25px 0;
+    }
+
+    .contact-title{
+        padding: 10px 15px;
+    }
+
+    .contact-subtitle, .form-group{
+        padding: 0 15px;
+    }
+
+    .grid-duas-colunas-insights {
+        grid-template-columns: 1fr!important;
+    }
+
+    .contact-form .custom .input-text{
+        border-radius: 0!important;
+    }
+    .daniel-kaufman-schaffer{
+        background-position-x: 44%!important;
+    }
+
+    #videosete, #videoonze {
+        left: 0px;
+    }
+
+  
+
+}
+

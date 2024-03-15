@@ -1,0 +1,1 @@
+twwr_whatsapp_callback({"country_code":"BR","country_name":"Brazil","city":"S\u00e3o Paulo","postal":"01000","latitude":-23.627,"longitude":-46.635,"IPv4":"179.97.144.141","state":"Sao Paulo"})

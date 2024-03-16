@@ -2,76 +2,90 @@
    border: 0px;
    padding: 0px;
    margin: 0px;
-   color: blueviolet;
+   color: black;
    align-items: center;
 
+}
+
+body{
+   background-color: antiquewhite;
 }
 
 #Cabecalio{
    display: flex;
    justify-content: space-between;
-
-   
+   background-color: #1D2637;   
 }
 
 #Logo{
    margin-inline-start: 12%;
    height: 128px;
+   margin-top: 1%;
+   margin-bottom: 1%;
 }
 
 #Menu{
    display: flex;
    justify-content: flex-end;
-   margin-inline-end: 22%;
+   margin-inline-end: 10%;
 }
 
 #Menu a {
-   margin-left: 15px; /* Ajuste conforme necessário */
+   margin-left: 2em; /* Ajuste conforme necessário */
    text-decoration: none;
-   color: #000; /* Cor do texto do link, ajuste conforme necessário */
-   font-size: 1.8em;
+   /*color: #000; /* Cor do texto do link, ajuste conforme necessário */
+   font-size: 1.6em;
+   color: #5B7BAF;
 }
 
 #conteudo{
    margin: auto;
    width: 70%;
+   background-color: azure;
 }
 
 .section-conteudo{
    display: flex;
    justify-content: space-evenly;
    position: relative;
-   margin: 3rem;
+   padding: 3rem;
 }
 
 .section-conteudo p {
-   margin-left: 2%;
+   margin-left: 1em;
 }
 
 footer{
    width: 100%;
-   position: fixed;
-   bottom: 0;
+   position: static;
+   background-color: blueviolet;
 }
 
 #footer-content{
    display: flex;
    height: auto;
    justify-content: space-evenly;
-   margin-top: 1.2rem;
-   padding-bottom: 1.2rem;
+   align-items: self-start;
 }
 
 #footer-menu{
    display: grid;
+   margin-top: 1.2rem;
+   margin-bottom: 1.2rem;
 }
 
 #footer-menu a{
    padding-top: 0.4rem;
    padding-bottom: 0.4rem;
+   text-decoration: none;
 }
 
 #social_midia{
    display: flex;
    margin-inline-end: 12%;
+   margin-top: 1.2rem;
+}
+
+#social_midia a{
+   text-decoration: none;
 }
